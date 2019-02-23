@@ -1,0 +1,30 @@
+{
+  "name": "hack-illinois-chat",
+  "version": "1.0.0",
+  "description": "chat app built during Hack Illinois 2019",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcoe/hack-illinois-chat.git"
+  },
+  "keywords": [
+    "chat",
+    "hack",
+    "illinois"
+  ],
+  "author": "Ben Coe <ben@npmjs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcoe/hack-illinois-chat/issues"
+  },
+  "homepage": "https://github.com/bcoe/hack-illinois-chat#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "uuid": "^3.3.2"
+  }
+}
